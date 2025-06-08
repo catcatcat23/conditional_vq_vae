@@ -1,0 +1,9 @@
+
+# 忽略 VAE 模块下的缓存/中间产物目录
+VAE/checkpoints/
+VAE/class_avg_skips/
+VAE/weights/
+
+# 忽略所有 .pt 和 .pth 文件
+*.pt
+*.pth
